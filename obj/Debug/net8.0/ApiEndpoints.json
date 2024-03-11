@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "apitree.Controllers.TreeController",
+    "Method": "Get",
+    "RelativePath": "api/Tree",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apitree.Controllers.TreeController",
+    "Method": "Post",
+    "RelativePath": "api/Tree",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "apitree.Models.TreeModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apitree.Controllers.TreeController",
+    "Method": "Delete",
+    "RelativePath": "api/Tree/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
